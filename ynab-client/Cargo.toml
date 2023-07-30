@@ -1,0 +1,8 @@
+[package]
+name = "ynab-client"
+description = "Client library for YNAB's REST API"
+keywords = ["api", "ynab"]
+categories = ["api-bindings", "web-programming::http-client"]
+
+[build-dependencies]
+paperclip = { version = "0.5", features = ["v2", "codegen"] }

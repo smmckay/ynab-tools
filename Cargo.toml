@@ -1,0 +1,11 @@
+[workspace]
+members = ["ynab-client"]
+
+[package]
+name = "ynab-tools"
+version = "0.10.0"
+repository = "https://github.com/smmckay/ynab-tools"
+authors = ["Steve McKay <steve@b.abbies.us>"]
+license = "GPL-3.0-only"
+edition = "2021"
+rust-version = "1.71"
