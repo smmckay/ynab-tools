@@ -1,8 +1,7 @@
 [workspace]
 members = ["ynab-client"]
 
-[package]
-name = "ynab-tools"
+[workspace.package]
 version = "0.10.0"
 repository = "https://github.com/smmckay/ynab-tools"
 authors = ["Steve McKay <steve@b.abbies.us>"]

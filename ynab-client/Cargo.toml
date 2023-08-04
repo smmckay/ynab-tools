@@ -4,5 +4,12 @@ description = "Client library for YNAB's REST API"
 keywords = ["api", "ynab"]
 categories = ["api-bindings", "web-programming::http-client"]
 
+version.workspace = true
+repository.workspace = true
+authors.workspace = true
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
 [build-dependencies]
-paperclip = { version = "0.5", features = ["v2", "codegen"] }
+paperclip = { version = "0.8", features = ["v2", "codegen"] }
